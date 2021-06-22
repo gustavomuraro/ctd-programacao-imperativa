@@ -6,6 +6,8 @@ let numerosPrimos = [2, 3, 5, 7, 11, 13, 17, 19, 23];
 
 let numeros = [...numerosPrimos, 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22];
 
-let menorNumero = () => Math.min(...numeros);
+function menorNumero() {
+  return Math.min(...numeros);
+}
 
 console.log(menorNumero());
