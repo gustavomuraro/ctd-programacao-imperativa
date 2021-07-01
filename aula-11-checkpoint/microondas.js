@@ -46,12 +46,12 @@ switch(opcao){
           console.log("Prato pronto, bom apetite")
       }
       break;
-  case 3: //Carne-3s
-      if(tempo > 6){
+  case 3: //Carne-15s
+      if(tempo > 30){
           console.log("A comida queimou!!!")
-      }else if(tempo < 3){
+      }else if(tempo < 15){
           console.log("Tempo insuficiente")
-      }else if(tempo > 9){
+      }else if(tempo > 45){
           console.log("Kabuummmm!!!!!")
       }else{
           console.log("Prato pronto, bom apetite")
