@@ -1,0 +1,12 @@
+{
+  "nome": "Gustavo",
+  "idade": 25,
+  "hobbies": [
+    "xadrez",
+    "fotografia"
+  ],
+  "namorada": {
+    "nome": "Livia",
+    "idade": 23
+  }
+}
